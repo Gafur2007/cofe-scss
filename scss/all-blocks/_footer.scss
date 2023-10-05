@@ -1,0 +1,40 @@
+.footer {
+    background-color: #2C343E;
+    margin-top: 200px;
+
+    & .container {
+        display: flex;
+        align-items: center;
+    }
+
+    & .footer--logo {
+        padding: 47px 0px;
+    }
+
+    & .footer__nav--link:hover {
+        color: #fff;
+        text-decoration: overline;
+    }
+
+    & .nav__list {
+        display: flex;
+        margin-left: 102px;
+    }
+
+    & .nav__item {
+        padding-left: 33px;
+    }
+
+    & .navber {
+        margin-left: 140px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    & path:hover {
+        fill: #FDD6BA;
+        cursor: auto;
+    }
+}

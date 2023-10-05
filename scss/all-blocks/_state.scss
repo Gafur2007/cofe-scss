@@ -1,0 +1,53 @@
+.state .container {
+    margin-top: 186px;
+    padding-left: 85px;
+
+    & .state__headquarters {
+        padding: 0;
+        margin: 0;
+        color: #83888F;
+        font-family: "Fraunces";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+    }
+
+    & .state__flex {
+        display: flex;
+        margin-top: 72px;
+
+        & .state__kingdom {
+            padding-bottom: 46px;
+            width: 285px;
+
+            & .state__headeing {
+                color: #333D4B;
+                font-family: "Fraunces";
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 36px;
+                width: 275px;
+            }
+
+            & .state__text {
+                width: 285px;
+                color: #333D4B;
+                font-family: "Barlow";
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 26px;
+            }
+        }
+
+        & .state__kingdom+.state__kingdom {
+            padding-left: 95px;
+        }
+
+        & .state__kingdom+.state__kingdom+.state__kingdom {
+            margin-left: 155px;
+        }
+    }
+}

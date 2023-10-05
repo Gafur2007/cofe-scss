@@ -1,0 +1,46 @@
+.uncompromising .container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 244px;
+    border-radius: 10px;
+    background: #2C343E;
+
+    & .uncompromising__flex {
+        margin-top: 88px;
+        margin-left: 85px;
+
+        & .uncompromising__heading {
+            padding: 0;
+            margin: 0;
+            color: #FEFCF7;
+            font-family: "Fraunces";
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 48px;
+            padding-bottom: 32px;
+        }
+
+        & .uncompromising__text {
+            padding: 0;
+            margin: 0;
+            width: 540px;
+            color: #FEFCF7;
+            font-family: "Barlow";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+            padding-bottom: 176px;
+        }
+    }
+
+    & .uncompromising__img {
+        position: absolute;
+        margin-left: -510px;
+        margin-top: -86px;
+        border-radius: 8px;
+    }
+
+}
